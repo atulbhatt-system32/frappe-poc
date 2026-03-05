@@ -44,3 +44,7 @@
 2026-03-05 15:36:09,478 INFO /Users/atulbhatt/.local/bin/bench worker
 2026-03-05 15:36:09,490 INFO /Users/atulbhatt/.local/bin/bench schedule
 2026-03-05 15:36:09,491 INFO /Users/atulbhatt/.local/bin/bench watch
+2026-03-05 15:43:07,508 INFO /Users/atulbhatt/.local/bin/bench --site mysite.localhost console
+2026-03-05 16:34:50,728 INFO /Users/atulbhatt/.local/bin/bench --site mysite.localhost clear-cache
+2026-03-05 16:40:14,380 INFO /Users/atulbhatt/.local/bin/bench --site mysite.localhost clear-cache
+2026-03-05 16:48:24,075 INFO /Users/atulbhatt/.local/bin/bench --site mysite.localhost clear-cache

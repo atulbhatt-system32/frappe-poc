@@ -13,3 +13,90 @@
 2026-03-05 15:38:59,434 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'klikspell@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::88805493-cd5c-4460-98bd-f53854784b19)
 2026-03-05 15:38:59,627 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::88805493-cd5c-4460-98bd-f53854784b19)
 2026-03-05 15:38:59,627 Result is kept for 600 seconds
+2026-03-05 15:43:50,876 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testlimited@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::d4557495-6a31-411f-874a-216196c5c2f7)
+2026-03-05 15:43:51,808 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::d4557495-6a31-411f-874a-216196c5c2f7)
+2026-03-05 15:43:51,808 Result is kept for 600 seconds
+2026-03-05 15:43:51,810 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testlimited@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::98263920-d2f2-42ef-b3c7-45810c1489d2)
+2026-03-05 15:43:51,983 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::98263920-d2f2-42ef-b3c7-45810c1489d2)
+2026-03-05 15:43:51,983 Result is kept for 600 seconds
+2026-03-05 15:43:51,986 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testlimited@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::efd033cf-143b-4fc8-af91-1130aa63dd8c)
+2026-03-05 15:43:52,309 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::efd033cf-143b-4fc8-af91-1130aa63dd8c)
+2026-03-05 15:43:52,309 Result is kept for 600 seconds
+2026-03-05 15:43:52,312 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testlimited@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::6d2d6e6d-dcd7-4346-9db0-05697faad4a9)
+2026-03-05 15:43:52,494 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::6d2d6e6d-dcd7-4346-9db0-05697faad4a9)
+2026-03-05 15:43:52,494 Result is kept for 600 seconds
+2026-03-05 16:07:27,133 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:short
+2026-03-05 16:07:27,174 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default
+2026-03-05 16:07:27,185 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:long
+2026-03-05 16:18:20,439 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testaccounting@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::f60e5ce5-db52-451f-a904-e69172cf868c)
+2026-03-05 16:18:21,346 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::f60e5ce5-db52-451f-a904-e69172cf868c)
+2026-03-05 16:18:21,346 Result is kept for 600 seconds
+2026-03-05 16:18:21,350 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testaccounting@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::b3f5062d-9242-488a-85f9-f9f2eeabc9b7)
+2026-03-05 16:18:21,525 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::b3f5062d-9242-488a-85f9-f9f2eeabc9b7)
+2026-03-05 16:18:21,525 Result is kept for 600 seconds
+2026-03-05 16:18:21,527 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testaccounting@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::b9cf9cb2-e0c0-4c1e-a24c-5ebedd9682a0)
+2026-03-05 16:18:21,934 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::b9cf9cb2-e0c0-4c1e-a24c-5ebedd9682a0)
+2026-03-05 16:18:21,934 Result is kept for 600 seconds
+2026-03-05 16:18:21,937 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testaccounting@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::2e34d1ff-23fe-476a-bd45-34466f268056)
+2026-03-05 16:18:22,108 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::2e34d1ff-23fe-476a-bd45-34466f268056)
+2026-03-05 16:18:22,108 Result is kept for 600 seconds
+2026-03-05 16:21:45,735 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testlimited@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::491af167-9c22-4b10-a516-e34c5dd3cfce)
+2026-03-05 16:21:46,183 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::491af167-9c22-4b10-a516-e34c5dd3cfce)
+2026-03-05 16:21:46,184 Result is kept for 600 seconds
+2026-03-05 16:21:46,186 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testlimited@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::08fb5936-6108-4be9-877c-5d641ffe73ce)
+2026-03-05 16:21:46,371 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::08fb5936-6108-4be9-877c-5d641ffe73ce)
+2026-03-05 16:21:46,371 Result is kept for 600 seconds
+2026-03-05 16:28:31,447 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:short
+2026-03-05 16:28:31,449 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default
+2026-03-05 16:28:31,450 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:long
+2026-03-05 16:33:19,039 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testlimited@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::679ecffb-6a4d-4eaf-9755-ed890960d4d8)
+2026-03-05 16:33:19,594 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::679ecffb-6a4d-4eaf-9755-ed890960d4d8)
+2026-03-05 16:33:19,594 Result is kept for 600 seconds
+2026-03-05 16:33:19,597 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testlimited@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::7b6605af-2ae8-41d5-8c7b-59243ec5fbf2)
+2026-03-05 16:33:19,819 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::7b6605af-2ae8-41d5-8c7b-59243ec5fbf2)
+2026-03-05 16:33:19,820 Result is kept for 600 seconds
+2026-03-05 16:35:49,824 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testlimited@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::61470f64-3d42-4f93-b7fc-21891139057a)
+2026-03-05 16:35:50,423 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::61470f64-3d42-4f93-b7fc-21891139057a)
+2026-03-05 16:35:50,423 Result is kept for 600 seconds
+2026-03-05 16:35:50,426 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testlimited@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::dd84902d-3814-4735-97d1-58739003dfc8)
+2026-03-05 16:35:50,607 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::dd84902d-3814-4735-97d1-58739003dfc8)
+2026-03-05 16:35:50,607 Result is kept for 600 seconds
+2026-03-05 16:38:51,850 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testlimited@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::c6509aee-db3f-4f54-8bf2-19b2ed347f32)
+2026-03-05 16:38:52,325 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::c6509aee-db3f-4f54-8bf2-19b2ed347f32)
+2026-03-05 16:38:52,325 Result is kept for 600 seconds
+2026-03-05 16:38:52,328 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testlimited@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::2e655004-85c3-4c1d-aaf5-539feb2403eb)
+2026-03-05 16:38:52,539 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::2e655004-85c3-4c1d-aaf5-539feb2403eb)
+2026-03-05 16:38:52,539 Result is kept for 600 seconds
+2026-03-05 16:40:14,228 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testlimited@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::b49fac2b-1b4f-4128-834e-67670aca84dd)
+2026-03-05 16:40:14,831 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::b49fac2b-1b4f-4128-834e-67670aca84dd)
+2026-03-05 16:40:14,831 Result is kept for 600 seconds
+2026-03-05 16:40:14,834 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testlimited@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::2d5f4df1-17c8-4ae5-88b2-b89000cb2477)
+2026-03-05 16:40:15,053 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::2d5f4df1-17c8-4ae5-88b2-b89000cb2477)
+2026-03-05 16:40:15,053 Result is kept for 600 seconds
+2026-03-05 16:52:54,819 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testlimited@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::7e828015-f86c-4586-9263-f1e71b6b20a6)
+2026-03-05 16:52:55,292 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::7e828015-f86c-4586-9263-f1e71b6b20a6)
+2026-03-05 16:52:55,292 Result is kept for 600 seconds
+2026-03-05 16:52:55,295 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:short
+2026-03-05 16:52:55,296 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default
+2026-03-05 16:52:55,296 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:long
+2026-03-05 16:52:55,297 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testlimited@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::5e08c595-6b41-46da-b16b-8d19cd1931a5)
+2026-03-05 16:52:55,477 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::5e08c595-6b41-46da-b16b-8d19cd1931a5)
+2026-03-05 16:52:55,477 Result is kept for 600 seconds
+2026-03-05 16:54:08,545 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testlimited@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::2d8464cb-4cb0-4dce-9943-5fa6ad944a43)
+2026-03-05 16:54:09,054 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::2d8464cb-4cb0-4dce-9943-5fa6ad944a43)
+2026-03-05 16:54:09,054 Result is kept for 600 seconds
+2026-03-05 16:54:09,057 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testlimited@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::e9a40160-5d60-4138-8243-d5db65977942)
+2026-03-05 16:54:09,313 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::e9a40160-5d60-4138-8243-d5db65977942)
+2026-03-05 16:54:09,314 Result is kept for 600 seconds
+2026-03-05 17:28:48,123 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:short
+2026-03-05 17:28:48,149 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default
+2026-03-05 17:28:48,149 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:long
+2026-03-05 17:44:39,381 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:short
+2026-03-05 17:44:39,384 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default
+2026-03-05 17:44:39,384 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:long
+2026-03-05 17:51:10,342 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: testlimited@example.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::44754b68-e568-4b80-ad43-2626eb98ae34)
+2026-03-05 17:51:10,885 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::44754b68-e568-4b80-ad43-2626eb98ae34)
+2026-03-05 17:51:10,885 Result is kept for 600 seconds
+2026-03-05 17:51:10,887 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testlimited@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::ec5d5207-758a-4e57-865e-c987195128c7)
+2026-03-05 17:51:11,070 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::ec5d5207-758a-4e57-865e-c987195128c7)
+2026-03-05 17:51:11,070 Result is kept for 600 seconds

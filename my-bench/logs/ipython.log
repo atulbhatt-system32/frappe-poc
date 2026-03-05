@@ -1,0 +1,28 @@
+2026-03-05 15:43:08,348 INFO ipython === bench console session ===
+2026-03-05 15:43:08,348 INFO ipython import frappe
+2026-03-05 15:43:08,348 INFO ipython from frappe.utils.password import update_password
+2026-03-05 15:43:08,348 INFO ipython def create_user():
+
+    email = "testlimited@example.com"
+    if not frappe.db.exists("User", email):
+        user = frappe.get_doc({
+            "doctype": "User",
+            "email": email,
+            "first_name": "Test",
+            "last_name": "Limited",
+            "send_welcome_email": 0,
+        })
+        user.insert(ignore_permissions=True)
+        
+2026-03-05 15:43:08,348 INFO ipython         # Remove all roles to make it very limited
+2026-03-05 15:43:08,348 INFO ipython         user.set("roles", [])
+2026-03-05 15:43:08,348 INFO ipython         user.append("roles", {
+            "role": "Guest"
+        })
+2026-03-05 15:43:08,348 INFO ipython         user.save(ignore_permissions=True)
+2026-03-05 15:43:08,348 INFO ipython         update_password(email, "testpass123")
+2026-03-05 15:43:08,348 INFO ipython         frappe.db.commit()
+2026-03-05 15:43:08,348 INFO ipython         print(f"User created: {email} / testpass123")
+2026-03-05 15:43:08,348 INFO ipython     else:
+        print(f"User already exists: {email}")
+2026-03-05 15:43:08,348 INFO ipython === session end ===
