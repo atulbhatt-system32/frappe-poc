@@ -1,0 +1,34 @@
+2026-03-05 14:50:15,899 DEBUG cd my-bench && uv venv env --seed --python python3
+2026-03-05 14:50:17,101 LOG Getting frappe
+2026-03-05 14:50:17,102 DEBUG cd my-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2026-03-05 14:50:24,478 LOG Installing frappe
+2026-03-05 14:50:24,478 DEBUG cd /Users/atulbhatt/Documents/Projects/Frappe-Erpnext/my-bench && uv pip install --quiet --upgrade -e /Users/atulbhatt/Documents/Projects/Frappe-Erpnext/my-bench/apps/frappe  --python /Users/atulbhatt/Documents/Projects/Frappe-Erpnext/my-bench/env/bin/python
+2026-03-05 14:50:27,208 DEBUG cd /Users/atulbhatt/Documents/Projects/Frappe-Erpnext/my-bench/apps/frappe && yarn install --check-files
+2026-03-05 14:50:32,772 DEBUG cd my-bench && bench build
+2026-03-05 14:50:32,864 INFO /Users/atulbhatt/.local/bin/bench build
+2026-03-05 14:50:41,930 LOG setting up backups
+2026-03-05 14:50:41,942 LOG backups were set up
+2026-03-05 14:50:41,942 INFO Bench my-bench initialized
+2026-03-05 14:51:05,490 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password root --admin-password admin --no-mariadb-socket
+2026-03-05 14:51:13,539 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password root --admin-password admin --verbose
+2026-03-05 14:51:18,537 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password root --admin-password admin --verbose --no-mariadb-socket --force
+2026-03-05 14:52:24,102 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket --verbose --force
+2026-03-05 14:52:55,807 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket --verbose --force
+2026-03-05 14:53:12,450 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket --verbose --force
+2026-03-05 14:53:28,127 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket --verbose --force
+2026-03-05 14:54:51,978 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket --verbose --force
+2026-03-05 14:55:15,337 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket --verbose --force
+2026-03-05 14:57:44,947 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket --verbose --force
+2026-03-05 15:00:47,069 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket --verbose --force
+2026-03-05 15:01:24,415 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --no-mariadb-socket --verbose --force
+2026-03-05 15:03:06,307 INFO /Users/atulbhatt/.local/bin/bench new-site mysite.localhost --mariadb-root-password admin --admin-password admin --verbose --force
+2026-03-05 15:03:36,439 INFO /Users/atulbhatt/.local/bin/bench use mysite.localhost
+2026-03-05 15:03:36,678 INFO /Users/atulbhatt/.local/bin/bench get-app erpnext --branch version-15
+2026-03-05 15:03:37,204 LOG Getting erpnext
+2026-03-05 15:03:37,204 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2026-03-05 15:03:42,216 LOG Installing erpnext
+2026-03-05 15:03:42,216 DEBUG cd /Users/atulbhatt/Documents/Projects/Frappe-Erpnext/my-bench && uv pip install --quiet --upgrade -e /Users/atulbhatt/Documents/Projects/Frappe-Erpnext/my-bench/apps/erpnext  --python /Users/atulbhatt/Documents/Projects/Frappe-Erpnext/my-bench/env/bin/python
+2026-03-05 15:03:44,189 DEBUG cd /Users/atulbhatt/Documents/Projects/Frappe-Erpnext/my-bench/apps/erpnext && yarn install --check-files
+2026-03-05 15:03:44,368 DEBUG bench build --app erpnext
+2026-03-05 15:03:44,446 INFO /Users/atulbhatt/.local/bin/bench build --app erpnext
+2026-03-05 15:03:47,146 INFO /Users/atulbhatt/.local/bin/bench --site mysite.localhost install-app erpnext
