@@ -32,3 +32,15 @@
 2026-03-05 15:03:44,368 DEBUG bench build --app erpnext
 2026-03-05 15:03:44,446 INFO /Users/atulbhatt/.local/bin/bench build --app erpnext
 2026-03-05 15:03:47,146 INFO /Users/atulbhatt/.local/bin/bench --site mysite.localhost install-app erpnext
+2026-03-05 15:34:29,227 INFO /Users/atulbhatt/.local/bin/bench start
+2026-03-05 15:34:29,415 INFO /Users/atulbhatt/.local/bin/bench schedule
+2026-03-05 15:34:29,416 INFO /Users/atulbhatt/.local/bin/bench watch
+2026-03-05 15:34:29,417 INFO /Users/atulbhatt/.local/bin/bench serve --port 8000
+2026-03-05 15:34:29,417 INFO /Users/atulbhatt/.local/bin/bench worker
+2026-03-05 15:35:03,335 INFO /Users/atulbhatt/.local/bin/bench setup redis
+2026-03-05 15:35:03,860 INFO /Users/atulbhatt/.local/bin/bench setup procfile
+2026-03-05 15:36:09,229 INFO /Users/atulbhatt/.local/bin/bench start
+2026-03-05 15:36:09,477 INFO /Users/atulbhatt/.local/bin/bench serve --port 8000
+2026-03-05 15:36:09,478 INFO /Users/atulbhatt/.local/bin/bench worker
+2026-03-05 15:36:09,490 INFO /Users/atulbhatt/.local/bin/bench schedule
+2026-03-05 15:36:09,491 INFO /Users/atulbhatt/.local/bin/bench watch

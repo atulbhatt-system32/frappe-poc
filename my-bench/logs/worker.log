@@ -1,0 +1,6 @@
+2026-03-05 15:36:09,905 Worker rq:worker:878dada99a0648a28fe5c1002b2e1276 started with PID 2630, version 1.15.1
+2026-03-05 15:36:09,905 Subscribing to channel rq:pubsub:878dada99a0648a28fe5c1002b2e1276
+2026-03-05 15:36:09,905 *** Listening on Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:short, Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default, Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:long...
+2026-03-05 15:36:09,905 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:short
+2026-03-05 15:36:09,906 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default
+2026-03-05 15:36:09,906 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:long
