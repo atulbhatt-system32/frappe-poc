@@ -100,3 +100,8 @@
 2026-03-05 17:51:10,887 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'testlimited@example.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::ec5d5207-758a-4e57-865e-c987195128c7)
 2026-03-05 17:51:11,070 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::ec5d5207-758a-4e57-865e-c987195128c7)
 2026-03-05 17:51:11,070 Result is kept for 600 seconds
+2026-03-05 18:11:26,231 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:short
+2026-03-05 18:11:26,234 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default
+2026-03-05 18:11:26,234 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:long
+2026-03-05 18:15:47,964 Worker 878dada99a0648a28fe5c1002b2e1276 [PID 2630]: warm shut down requested
+2026-03-05 18:15:47,971 Unsubscribing from channel rq:pubsub:878dada99a0648a28fe5c1002b2e1276

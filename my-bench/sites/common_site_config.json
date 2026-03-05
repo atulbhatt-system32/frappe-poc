@@ -1,6 +1,6 @@
 {
  "background_workers": 1,
- "default_site": "mysite.localhost",
+ "default_site": "test-fresh.localhost",
  "file_watcher_port": 6787,
  "frappe_user": "atulbhatt",
  "gunicorn_workers": 21,

@@ -49,3 +49,5 @@
 2026-03-05 16:40:14,380 INFO /Users/atulbhatt/.local/bin/bench --site mysite.localhost clear-cache
 2026-03-05 16:48:24,075 INFO /Users/atulbhatt/.local/bin/bench --site mysite.localhost clear-cache
 2026-03-05 18:00:00,692 INFO /Users/atulbhatt/.local/bin/bench --verbose --site all backup
+2026-03-05 18:15:51,630 INFO /Users/atulbhatt/.local/bin/bench new-site test-fresh.localhost --admin-password admin
+2026-03-05 18:16:22,332 INFO /Users/atulbhatt/.local/bin/bench use test-fresh.localhost
