@@ -4,3 +4,12 @@
 2026-03-05 15:36:09,905 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:short
 2026-03-05 15:36:09,906 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default
 2026-03-05 15:36:09,906 Cleaning registries for queue: Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:long
+2026-03-05 15:38:47,627 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: klikspell@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='mysite.localhost', user='Administrator') (mysite.localhost::fc1df601-ba8a-4bda-a812-c8ab545afec0)
+2026-03-05 15:38:48,635 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::fc1df601-ba8a-4bda-a812-c8ab545afec0)
+2026-03-05 15:38:48,635 Result is kept for 600 seconds
+2026-03-05 15:38:48,638 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='erpnext.setup.demo.setup_demo_data', kwargs={}, method=<function setup_demo_data at 0x10b366480>, site='mysite.localhost', user='klikspell@gmail.com') (mysite.localhost::16279834-e622-4df0-887f-2031542860ef)
+2026-03-05 15:38:59,430 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::16279834-e622-4df0-887f-2031542860ef)
+2026-03-05 15:38:59,430 Result is kept for 600 seconds
+2026-03-05 15:38:59,434 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'klikspell@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='mysite.localhost', user='Administrator') (mysite.localhost::88805493-cd5c-4460-98bd-f53854784b19)
+2026-03-05 15:38:59,627 Users-atulbhatt-Documents-Projects-Frappe-Erpnext-my-bench:default: Job OK (mysite.localhost::88805493-cd5c-4460-98bd-f53854784b19)
+2026-03-05 15:38:59,627 Result is kept for 600 seconds
