@@ -48,3 +48,4 @@
 2026-03-05 16:34:50,728 INFO /Users/atulbhatt/.local/bin/bench --site mysite.localhost clear-cache
 2026-03-05 16:40:14,380 INFO /Users/atulbhatt/.local/bin/bench --site mysite.localhost clear-cache
 2026-03-05 16:48:24,075 INFO /Users/atulbhatt/.local/bin/bench --site mysite.localhost clear-cache
+2026-03-05 18:00:00,692 INFO /Users/atulbhatt/.local/bin/bench --verbose --site all backup
